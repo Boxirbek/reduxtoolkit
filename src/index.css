@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #97dcef;
+}
+header{
+    text-align: center;
+    background-color: aqua;
+   
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: aqua;
+}
+nav ul{
+    padding-top: 30px;
+    margin-left: 15%;
+    display: flex;
+    gap: 140px;
+    text-align: center;
+     text-decoration: none;
+     font-size: 24px;
+     color: black;
+    
+}
+
+h1, h3 {
+  text-align: center;
+  color: #000000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+ 
+}
+.btnpost{
+    width: 80px;
+    height: 50px;
+
+}
+.btnpost:hover{
+    background-color: rgb(29, 223, 233);
+    border: none;
+    border-radius: 10px;
+}
+.delete-button{
+    width: 120px;
+    height: 30px; 
+    border: solid 1px aqua;
+    background-color: #fff;
+}
+.delete-button:hover{
+    background-color: rgb(233, 29, 29);
+    border: none;
+    border-radius: 10px; 
+}
+.cancel-button{
+    width: 120px;
+    height: 30px; 
+    border: solid 1px aqua;
+    background-color: #fff;
+}
+.cancel-button:hover{
+      background-color: rgb(29, 223, 233);
+    border: none;
+    border-radius: 10px;  
+}
+.aboutPost{
+    text-align: center;
+    width: 90%;
+    height: 130px;
+    border: solid 1px aqua;
+    background-color: rgb(237, 255, 255);
+
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: aqua;
+    
+}
